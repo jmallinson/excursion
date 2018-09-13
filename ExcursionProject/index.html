@@ -1,0 +1,75 @@
+<!DOCTYPE>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <title>Excursion | Your personal travel guide</title>
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Palanquin+Dark" rel="stylesheet">
+  </head>
+  <body>
+
+     <!-- "Nav" -->
+    <div id="navbar">
+		<div class="logoname">
+      <a href="#">Download Excursion</a>
+		</div>
+		<div class="apps">
+      <a href="#"><i class="fab fa-app-store fa-lg"></i></a>
+      <a href="#"><i class="fab fa-google-play fa-lg"></i></a>
+	    </div>
+   </div>
+
+    <!-- "Main section" -->
+  <div class="main">
+    <h1>Discover hidden places in the world around you</h1>
+    <p class="cta">Download Excursion
+      <br>
+      <a href="#"><i class="fab fa-app-store fa-lg"></a></i>&nbsp;<a href="#"><i class="fab fa-google-play fa-lg"></i></a></p>
+  </div>
+    <video autoplay muted loop>
+      <source src="resources/excursion.mp4" type="video/mp4">
+    </video>
+
+    <!-- "First section" -->
+  <div class="section1">
+    <h2>Your personal travel guide</h2>
+    <p>Excursion remembers places you like, and recommends new points of interest around you.</p>
+    <p><img src="resources/camp.jpg" alt="Camp"></p>
+  </div>
+
+    <!-- "Second section" -->
+  <div class="section2">
+    <p><img class="app" src="resources/phone.png"></p>
+    <h2>Available for iPhone and Android</h2>
+    <p>Download Excursion</p>
+    <a href="#"><i class="fab fa-app-store fa-5x"></i></a>
+    <a href="#"><i class="fab fa-google-play fa-5x"></i></a>
+  </div>
+
+    <!-- "Footer" -->
+    <div class="footer">
+      <p>&copy; Excursion
+		  <a href="#"><i class="fab fa-facebook-square fa-lg"></i></a>
+		  <a href="#"><i class="fab fa-twitter-square fa-lg"></i></a>
+		  <a href="#"><i class="fab fa-instagram fa-lg"></i></p></a>
+    </div>
+
+    <script>
+// When the user scrolls down 20px from the top of the document, slide down the navbar
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+}
+</script>
+
+  </body>
+</html>
